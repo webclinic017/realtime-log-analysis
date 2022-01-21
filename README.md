@@ -1,6 +1,7 @@
 # Realtime Log Analysis 
+[![Status In Progress]]
 
-This project is an implementation of common practice log analysis using python and other various libraries. 
+This project is an implementation of common practice log analysis using python and other various technologies. 
 
 
 In this project we extract logs from NASA and process them using the streaming solutions provided by Apache Spark and Apache Kafka. 
@@ -10,16 +11,19 @@ See below for the general architecture.
 
 ![Log Analysis Architecture Overview](https://user-images.githubusercontent.com/91840749/150593051-3c5aad68-ef11-4386-a1fe-4ee0158bee1c.png)
 
-# Tech Used 
-* ArgoCD 
-* Helm
-* Pulumi
+
+# Key Technologies Used
 * Prefect 
 * Apache Kafka 
 * Apache Spark 
 * Metabase 
-* AWS S3 
-* Istio
-* Prometheus 
-* Grafana 
-* Synk 
+* AWS
+
+
+# Setup / Installation
+
+
+# Run Test Suite
+
+
+# 
