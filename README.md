@@ -18,12 +18,19 @@ See below for the general architecture.
 * Apache Spark 
 * Metabase 
 * AWS
+* YugabyteDB 
 
 
 # Setup / Installation
 
+1. Clone this repository in the directory of your choice.
+2. Run `pulumi up`. This will provision your infrastructure on the cloud. 
+3. Navigate to Metabase to interact with the log data. 
+
+
 
 # Run Test Suite
 
+`pytest tests`
 
-# 
+
