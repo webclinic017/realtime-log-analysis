@@ -1,5 +1,5 @@
 # Realtime Log Analysis 
-[https://img.shields.io/badge/Status-In%20Progress-green]
+<img src="https://img.shields.io/badge/Status-In%20Progress-green"></img>
 
 This project is an implementation of common practice log analysis using python and other various technologies. 
 
