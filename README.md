@@ -9,8 +9,7 @@ Beyond processing we provide a set of monitoring interfaces for developers.
 
 See below for the general data architecture. 
 
-![Log Analysis Project (2)](https://user-images.githubusercontent.com/91840749/152400353-a962d008-cf20-4fc3-b389-167d107952db.png)
-
+![Log Analysis Project (3)](https://user-images.githubusercontent.com/91840749/152401924-9b0ad61a-d123-4507-bb99-15e6d57383f2.png)
 
 # Key Technologies Used
 * Dagster
@@ -30,6 +29,7 @@ Terraform
 # Run Test Suite
 
 `pytest tests`
+
 
 
 
