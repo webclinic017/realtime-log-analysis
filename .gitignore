@@ -1,0 +1,4 @@
+/spark
+/kafka
+.*
+.toml
