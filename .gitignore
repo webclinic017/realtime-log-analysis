@@ -2,3 +2,7 @@
 /kafka
 .*
 *.toml
+
+
+# Ignore DevSpace cache and log folder
+.devspace/

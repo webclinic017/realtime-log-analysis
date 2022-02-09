@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: metabase-app
+  namespace: default
+  labels:
+    app: metabase-app
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app:  metabase-app
+  template:
+    metadata:
+      labels:
+        app: metabase-app
+      annotations:
+        dapr.io/enabled: "true"
+        dapr.io/app-id: "metabase"
+        dapr.io/app-port: "8080"
