@@ -17,19 +17,14 @@ spec:
     value: "password"
   - name: saslUsername # Required if authType is `password`.
     value: "adminuser"
-  - name: consumeRetryInterval # Optional.
-    value: 200ms
-  - name: version # Optional.
-    value: 0.10.2.0
-  - name: saslPassword # Required if authRequired is `true`.
+  - name: saslPassword # Required if authType is `password`.
     secretKeyRef:
       name: kafka-secrets
       key: saslPasswordSecret
   - name: maxMessageBytes # Optional.
     value: 1024
-  - name: caCert # Certificate authority certificate.
-    secretKeyRef:
-      name: kafka-tls
-      key: caCert
-auth:
-  secretStore: <SECRET_STORE_NAME>
+  - name: consumeRetryInterval # Optional.
+    value: 200ms
+  - name: version # Optional.
+    value: 0.10.2.0
+
