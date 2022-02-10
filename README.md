@@ -9,7 +9,7 @@ Beyond processing we provide a set of monitoring interfaces for developers.
 
 See below for the general system architecture. 
 
-![Cloud Native Realtime Log Analysis (1)](https://user-images.githubusercontent.com/91840749/153329532-ee881fcb-5b82-440b-b0b7-57411e14ab19.png)
+![Cloud Native Realtime Log Analysis (2)](https://user-images.githubusercontent.com/91840749/153502420-f60a01ff-aff5-4329-bf06-830f462a476e.png)
 
 # Key Technologies Used
 * Dagster
@@ -21,6 +21,7 @@ See below for the general system architecture.
 
 
 # Setup / Installation
+
 
 Terraform
 
