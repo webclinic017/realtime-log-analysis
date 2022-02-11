@@ -18,6 +18,8 @@ See below for the general system architecture.
 * PostgreSQL
 * VueJs
 * GCP
+* Kubernetes
+
 
 
 # Setup / Installation
