@@ -11,6 +11,6 @@ RUN curl -s -L "https://github.com/loft-sh/vcluster/releases/latest" | sed -nE '
 RUN sudo mv vcluster /usr/local/bin
 RUN brew install kind 
 RUN brew install gh
-
+RUN curl https://raw.githubusercontent.com/helm/helm/main/scripts/get-helm-3 | bash
 ENV PATH="${PATH}:/home/gitpod/.pulumi/bin"
 ENV PIP_USER=no
